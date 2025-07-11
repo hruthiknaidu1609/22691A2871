@@ -1,34 +1,31 @@
-
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  background: linear-gradient(to right,rgb(210, 175, 150), rgb(226, 121, 121),rgb(117, 117, 247),rgb(233, 233, 73),rgb(209, 196, 196),rgb(240, 128, 147));
   margin: 0;
   padding: 20px;
-  color: #333;
+  color: burlywood;
 }
 
 .container {
   max-width: 650px;
   margin: auto;
-  background-color: #ffffff;
+  background-color: rgb(146, 173, 163);
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(5, 5, 5, 5);
 }
-
-
 h2 {
   text-align: center;
-  color: #0097a7;
+  color: rgb(209, 15, 67);
   margin-bottom: 25px;
 }
 .card {
-  background: #ffffff;
+  background: white;
   padding: 20px;
   margin-bottom: 15px;
   border-radius: 10px;
-  border: 1px solid #d0e8f2;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 5);
 }
 
 .card input {
@@ -36,42 +33,42 @@ h2 {
   padding: 10px;
   margin: 8px 0;
   border-radius: 6px;
-  border: 1px solid #b2ebf2;
-  background-color: #f0f9ff;
+  border: 1px solid rgb(151, 149, 149);
+  background-color: white;
   transition: 0.2s ease;
   font-size: 16px;
 }
 
 .card input:focus {
   outline: none;
-  border-color: #00acc1;
-  background-color: #e0f7fa;
+  border-color: skyblue;
+  background-color: white;
 }
 
 
 button {
   width: 100%;
   padding: 12px;
-  background-color: #00bcd4;
-  color: white;
+  background: linear-gradient(to right,rgb(210, 175, 150), rgb(226, 121, 121),rgb(117, 117, 247),rgb(233, 233, 73),rgb(209, 196, 196),rgb(240, 128, 147));
+  background-color: skyblue;
+  color: black;
   font-size: 16px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
 button:hover {
-  background-color: #0097a7;
+  background-color: rgb(216, 195, 99);
 }
 
-
 .result {
-  background: #e0f7fa;
+  background: saddlebrown;
   padding: 15px;
-  border-left: 5px solid #00bcd4;
+  border-left: 5px solid skyblue;
   border-radius: 8px;
   margin: 12px 0;
+  color: black;
 }
 
 .result p {
@@ -79,7 +76,7 @@ button:hover {
 }
 
 .result a {
-  color: #0077b6;
+  color:skyblue;
   text-decoration: none;
   font-weight: 500;
 }
